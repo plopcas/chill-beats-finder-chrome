@@ -1,6 +1,6 @@
 # Chill Beats Finder Chrome Extension
 
-<img src="screenshots/screenshot.png" alt="Logo" width="200">
+<img src="screenshots/screenshot.png" alt="Logo" width="400">
 
 Chill Beats Finder is a Chrome extension that helps you discover relaxing music playlists easily. Whether you're studying, working, or just chilling, find the perfect background music to set the mood.
 
