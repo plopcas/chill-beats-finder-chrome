@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Chill Beats Finder",
+  "version": "1.0",
+  "description": "Easily find chill beats.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

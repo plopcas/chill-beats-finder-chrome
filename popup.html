@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill Beats Finder</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Chill Beats Finder</h1>
+    </div>
+    <div class="content">
+      <ul class="playlist-links">
+        <li>
+          <a href="https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg" target="_blank">Chillhop Music - Channel</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow" target="_blank">Lofi Girl - Channel</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/playlist?list=PLOzDu-MXXLlj7croDcwz33c-a5rpNEBNe" target="_blank">Chill Lofi Beats - Playlist</a>
+        </li>
+        <!-- Add more curated links here -->
+      </ul>
+    </div>
+    <div class="platform-select">
+      <div class="checkbox-container">
+        <input type="checkbox" id="search-youtube" checked /><label for="search-youtube">YouTube</label>
+        <input type="checkbox" id="search-vimeo" checked /><label for="search-vimeo">Vimeo</label>
+        <input type="checkbox" id="search-dailymotion" checked /><label for="search-dailymotion">Dailymotion</label>
+        <input type="checkbox" id="search-soundcloud" checked /><label for="search-soundcloud">SoundCloud</label>
+        <input type="checkbox" id="search-spotify" checked /><label for="search-spotify">Spotify</label>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-query" placeholder="Search more beats..." value="lofi chill beats" />
+      <button id="search-btn">Search</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
