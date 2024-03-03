@@ -7,9 +7,7 @@ Chill Beats Finder is a Chrome extension that helps you discover relaxing music 
 ## Features
 
 - Quickly search for chill beats on popular platforms like YouTube, Vimeo, Dailymotion, SoundCloud, and Spotify.
-- Explore curated playlists and channels for a hassle-free listening experience.
 - Customize your search preferences by selecting or deselecting specific platforms.
-- Save your favorite playlists for easy access later.
 - Enjoy a seamless and intuitive user interface designed for music lovers.
 
 ## Installation

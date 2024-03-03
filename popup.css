@@ -7,7 +7,8 @@ html {
 }
 
 .header {
-  background-color: #4caf50;
+  background-color: #89CFF0;
+  background-image: linear-gradient(to right, #FF69B4, #00BFFF 60%, #e0f7fa 100%);
   color: white;
   text-align: center;
   padding: 10px;
@@ -15,27 +16,6 @@ html {
 
 .content {
   padding: 15px;
-}
-
-.playlist-links {
-  list-style: none;
-  padding: 0;
-}
-
-.playlist-links li a {
-  text-decoration: none;
-  color: #333;
-  display: block;
-  padding: 10px;
-  margin: 5px 0;
-  background-color: #f9f9f9;
-  border-left: 5px solid #4caf50;
-  transition: all 0.3s ease;
-}
-
-.playlist-links li a:hover {
-  background-color: #f0f0f0;
-  border-left: 5px solid #388e3c;
 }
 
 /* Search container styles */
@@ -55,10 +35,15 @@ html {
   font-size: 14px;
 }
 
+#search-query:focus {
+  outline: none;
+  border-color: #50BFE6;
+}
+
 /* Styles for the search button */
 #search-btn {
   padding: 10px 15px;
-  background-color: #4caf50;
+  background-color: #00BFFF;
   color: white;
   border: none;
   border-radius: 4px;
@@ -67,7 +52,7 @@ html {
 }
 
 #search-btn:hover {
-  background-color: #388e3c;
+  background-color: #309fdb;
 }
 
 /* Custom checkbox styles */
@@ -80,7 +65,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
-  margin: 0 20px;
+  margin: 20px;
 }
 
 [type="checkbox"] + label {
@@ -107,8 +92,8 @@ html {
 }
 
 [type="checkbox"]:checked + label:before {
-  background-color: #4caf50;
-  border-color: #4caf50;
+  background-color: #00BFFF;
+  border: 2px solid #89CFF0; 
 }
 
 [type="checkbox"]:checked + label:after {
